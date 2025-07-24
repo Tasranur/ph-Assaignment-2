@@ -100,6 +100,28 @@
   margin-top: 5px;
   margin-bottom: 10px;
 }
+/* sec banner styles */
+.sec-banner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+}
+.sec-banner-tittle {
+  font-size: 700;
+  font-size: 3em;
+  width: 500px;
+}
+.sec-banner-img {
+  width: 100%;
+}
+.badge img {
+  width: 200px;
+  height: 200px;
+  margin-left: -200px;
+  margin-top: -80px;
+}
+/* responsive design */
 @media screen and (max-width: 576px) {
   .nav-bar {
     max-width: 100%;
@@ -130,10 +152,21 @@
   }
   .cards-container {
     grid-template-columns: repeat(2, 4fr);
-    gap: 20px;
+    gap: 10px;
   }
   .cards img {
     width: 100%;
   }
-  .cards;
+  .card {
+    width: 100%;
+  }
+  .sec-banner {
+    flex-direction: column;
+  }
+  .badge img {
+    display: none;
+  }
+  .sec-banner-img img {
+    width: 100%;
+  }
 }
