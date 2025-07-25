@@ -134,6 +134,7 @@
 }
 .offer-container a {
   color: white;
+  text-decoration: underline;
 }
 .offer-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
