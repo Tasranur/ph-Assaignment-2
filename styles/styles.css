@@ -140,6 +140,7 @@
   }
   .nav-bar {
     gap: 150px;
+    padding: 0px;
   }
   .banner {
     flex-direction: column-reverse;
@@ -167,6 +168,9 @@
     display: none;
   }
   .sec-banner-img img {
+    width: 100%;
+  }
+  .sec-banner-tittle {
     width: 100%;
   }
 }
