@@ -134,7 +134,6 @@
 }
 .offer-container a {
   color: white;
-  text-decoration: none;
 }
 .offer-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
@@ -209,7 +208,30 @@
 .f-btn {
   height: 50px;
   padding: 0;
-  margin-left: -15px;
+  margin-left: -13px;
+}
+.main-footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 100px;
+}
+.m-footer-tittle {
+  width: 350px;
+  height: 80px;
+}
+.m-footer-l li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.links li {
+  margin-bottom: 25px;
+}
+.footer-img {
+  display: flex;
+  gap: 25px;
+  align-items: center;
 }
 /* responsive design  */
 @media screen and (max-width: 576px) {
@@ -297,5 +319,22 @@
   }
   .f-btn {
     width: 100px;
+    margin-left: -5px;
+  }
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    gap: 0px;
+    align-items: center;
+  }
+  .links,
+  .m-footer-tittle {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-info {
+    text-align: center;
   }
 }
