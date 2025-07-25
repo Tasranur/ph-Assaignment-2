@@ -138,7 +138,7 @@
 }
 .offer-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
-    url('./assets/deal-bloom.png');
+    url('../assets/deal-bloom.png');
 
   width: 360px;
   height: 200px;
@@ -152,7 +152,7 @@
 }
 .offer-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
-    url('./assets/deal-ana.png');
+    url('../assets/deal-ana.png');
   width: 360px;
   height: 200px;
   border-radius: 10px;
@@ -164,7 +164,7 @@
 .offer-3 {
   /* margin-top: 20px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
-    url('./assets/deal-zabo.png');
+    url('../assets/deal-zabo.png');
 
   width: 750px;
   height: 400px;
@@ -186,6 +186,18 @@
 .off-1-2 {
   width: 360px;
   height: 450px;
+}
+#email-input {
+  width: 820px;
+  height: 50px;
+}
+.footer-input {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455)),
+    url(../assets/news-letter-bg.png);
+  width: 100%;
+  height: 520px;
+  text-align: center;
+  align-content: center;
 }
 /* responsive design  */
 @media screen and (max-width: 576px) {
